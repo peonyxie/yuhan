@@ -1,0 +1,180 @@
+
+.navbar{
+  height:60%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-family: 'VT323', arial, serif;
+  font-size:30px;
+  font-color: white;
+  z-index: 1000;
+}
+
+
+body { 
+  background-image: url("../img/back.jpg");
+  background-size: cover;
+}
+
+.nav{
+	z-index: 999;
+}
+
+#night{
+  display: flex;
+  position: absolute;
+  top: 0%;
+  left: 30%;
+  z-index: 999;
+}
+
+#drawing{
+  display: none;
+  position: absolute;
+  height: 50%;
+  width: 40%;
+  top:25%;
+  left:13%;
+}
+
+#birthday{
+  font-family: 'Quicksand', arial, serif;
+  color:black;
+  display: none;
+  position: absolute;
+  font-size: 30px;
+  top:13%;
+  left:13%;
+}
+
+#gift{
+  display: none;
+  position: absolute;
+  top: 74%;
+  left: 82%;
+  font-family: 'Quicksand', arial, serif;
+  font-size:15px;
+  color: black;
+}
+
+#you{
+  display: none;
+  position: absolute;
+  top: 23%;
+  left: 56%;
+  font-family: 'Quicksand', arial, serif;
+  font-size:17px;
+  color: black;
+  z-index:100000;
+
+}
+
+#ins{
+  height:30px;
+  width: 30px;
+  display: inline-block;
+  float:left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#link{
+ height:30px;
+ width: 30px;
+ display: inline-block;
+ float:right;
+ margin: 10px;
+ padding: 10px;
+}
+
+#button{
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 47%;
+    width: 50px;
+    height: 50px;
+    transition: transform ease 0.2s;
+    z-index:10000;
+}
+
+#click{
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  font-family: 'VT323', arial, serif;
+  font-size:30px;
+  color: white;
+  z-index:100000;
+}
+
+#button:hover {
+    transform: translateX(10px);
+    transform: scale(1.2);
+  }
+
+#star1{
+	 position: absolute;
+    display: block;
+    height: 100px;
+    width: 100px;
+    top:0px;
+    bottom: 100px;
+    left: 400px;
+    z-index: 999;
+    transform: translateY(0px);
+    transform: translateX(0px);
+    animation: falling 1.8s infinite;
+}
+
+#star2{
+	position: relative;
+    display: block;
+    height: 120px;
+    width: 120px;
+    top:150px;
+    bottom: 100px;
+    left: 1200px;
+    z-index: 999;
+	transform: translateY(0px);
+    transform: translateX(0px);
+    animation: falling 1.9s infinite;
+}
+
+#star3{
+	position: relative;
+    display: block;
+    height: 90px;
+    width: 90px;
+    top:70px;
+    bottom: 100px;
+    left: 700px;
+    z-index: 999; 
+    transform: translateY(0px);
+    transform: translateX(0px);
+     animation: falling 2.3s infinite;
+}
+
+#star4{
+	position: relative;
+    display: block;
+    height: 100px;
+    width: 100px;
+    top:200px;
+    left: 1000px;
+    z-index: 999; 
+    transform: translateY(0px);
+    transform: translateX(0px);
+     animation: falling 1.4s infinite;
+}
+
+@keyframes falling {
+    0% {
+        transform: translatex(0px) translatey(0px);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translatex(-300px) translatey(300px);
