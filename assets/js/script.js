@@ -3,8 +3,8 @@ $(document).ready(function() {
 	const distanceToNextImage = -800;
 	let currentImageNumber = 0;
 	let value = 0;
+	let numImagesMia = 9;
 	let numImagesBJ = 5;
-	let numImagesMia = 8;
 	let numImagesSF = 5;
 	let numImagesLA = 4;
 	let numImagesCan = 1;
