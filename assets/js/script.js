@@ -4,7 +4,7 @@ $(document).ready(function() {
 	let currentImageNumber = 0;
 	let value = 0;
 	let numImagesBJ = 4;
-	let numImagesMia = 8;
+	let numImagesMia = 9;
 	let numImagesSF = 5;
 	let numImagesLA = 4;
 	let numImagesCan = 1;
